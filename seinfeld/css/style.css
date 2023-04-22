@@ -76,25 +76,15 @@ nav:hover h2 {
 } 
 */
 
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
+.grid-container {
+  display: inline-grid;
 }
 
 footer {
-  background-color: #777;
+  background-color: #fcff00;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: #38a2ff;
 }
 
 content {
@@ -253,11 +243,13 @@ h2::before {
   transition: opacity 0.3s ease-in-out;
 }
 
+/*
 .container {
   max-width: 55ch;
   margin: auto;
   color: #36454F;
 }
+*/
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
   background-color: #dddddd;

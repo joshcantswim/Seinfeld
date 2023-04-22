@@ -10,8 +10,8 @@ class EpisodeCount {
         // you might want to use getter and setter methods for individual attributes
         this.config = {
             parentElement: _config.parentElement,
-            containerWidth: _config.containerWidth || 1200,
-            containerHeight: _config.containerHeight || 600,
+            containerWidth: _config.containerWidth || 600,
+            containerHeight: _config.containerHeight || 400,
             margin: _config.margin || { top: 20, right: 40, bottom: 80, left: 75 },
             tooltipPadding: _config.tooltipPadding || 15
         }
@@ -96,18 +96,18 @@ class EpisodeCount {
 
         vis.xAxisG.append('text')
             .attr("transform", "translate(0,0)")
-            .attr("y", vis.height - 460)
-            .attr("x", vis.width - 550)
-            .attr("font-size", "16px")
+            .attr("y", vis.height - 260)
+            .attr("x", vis.width - 260)
+            .attr("font-size", "13px")
             .attr("stroke", "black")
             .text("Main Characters in Seinfeld");
 
         vis.yAxisG.append('text')
             .attr("transform", "rotate(-90)")
             .attr("dy", "-13.5em")
-            .attr("y", vis.height - 335)
-            .attr("x", vis.width - 1270)
-            .attr("font-size", "16px")
+            .attr("y", vis.height - 180)
+            .attr("x", vis.width - 600)
+            .attr("font-size", "13px")
             .attr("stroke", "black")
             .text("Number of Episodes");
 
