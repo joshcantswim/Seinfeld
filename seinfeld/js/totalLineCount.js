@@ -156,7 +156,7 @@ class LineCount {
             .attr('x', d => vis.xScale(vis.xValue(d)))
             .style('opacity', 0.5)
             .style('opacity', 1)
-            .style('fill', "#8AAC80") //change me 
+            .style('fill', "#eb3500")
             .on('mouseover', (event, d) => {
                 d3.select('#tooltip1')
                     .style('display', 'block')
