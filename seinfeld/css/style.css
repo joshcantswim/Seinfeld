@@ -78,6 +78,7 @@ nav:hover h2 {
 
 .grid-container {
   display: inline-grid;
+  padding: 20px;
 }
 
 footer {
